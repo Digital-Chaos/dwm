@@ -1,12 +1,23 @@
 /* See LICENSE file for copyright and license details. */
 
+/* font awesome icons */
+static const char icon_music[]       = "\uf001";
+static const char icon_headphones[]  = "\uf025";
+static const char icon_globe[]       = "\uf0ac";
+static const char icon_envelope[]    = "\uf0e0";
+static const char icon_gamepad[]     = "\uf11b";
+static const char icon_terminal[]    = "\uf120";
+static const char icon_code[]        = "\uf121";
+static const char icon_firefox[]     = "\uf269";
+static const char icon_freebsd[]     = "\uf3a4";
+
 /* appearance */
 static const unsigned int borderpx  = 1;        /* window border (pixels) */
 static const unsigned int snap      = 8;        /* snap distance (pixels) */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=7" };
-static const char dmenufont[]       = "monospace:size=7";
+static const char *fonts[]          = { "mono-7:bold", "Font Awesome 5 Brands-7", "Font Awesome 5 Free Solid-7" };
+static const char dmenufont[]       = "mono-7:bold";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -19,8 +30,8 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-//static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
-static const char *tags[] = { "term", "mail", "web", "code", "misc" };
+//static const char *tags[] = { "term", "mail", "web", "code", "misc" };
+static const char *tags[] = { icon_freebsd, icon_envelope, icon_globe, icon_code, icon_gamepad, icon_music };
 
 static const Rule rules[] = {
 	/* xprop(1):
