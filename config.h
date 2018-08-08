@@ -30,8 +30,8 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-//static const char *tags[] = { "term", "mail", "web", "code", "misc" };
-static const char *tags[] = { icon_freebsd, icon_envelope, icon_globe, icon_code, icon_gamepad, icon_music };
+//static const char *tags[] = { "term", "code", "mail", "web", "games", "music" };
+static const char *tags[] = { icon_freebsd, icon_code, icon_envelope, icon_globe, icon_gamepad, icon_music };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -40,11 +40,11 @@ static const Rule rules[] = {
 	 */
 	/* class          	instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",         	NULL,       NULL,       0,            1,           -1 },
-	{ "Sylpheed",  		NULL,       NULL,       1 << 1,       0,           -1 },
-	{ "Thunderbird",  	NULL,       NULL,       1 << 1,       0,           -1 },
-	{ "Firefox",      	NULL,       NULL,       1 << 2,       0,           -1 },
-	{ "Sublime_text", 	NULL,       NULL,       1 << 3,       0,           -1 },
-	{ "jetbrains-idea-ce", 	NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "Sylpheed",  		NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "Thunderbird",  	NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "Firefox",      	NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "Sublime_text", 	NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "jetbrains-idea-ce", 	NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "SDL_App", 		NULL,       NULL,       1 << 4,       1,           -1 },
 	{ "Snes9x-gtk", 	NULL,       NULL,       1 << 4,       1,           -1 },
 	{ "DarkPlaces", 	NULL,       NULL,       1 << 4,       1,           -1 },
