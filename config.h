@@ -44,6 +44,7 @@ static const Rule rules[] = {
 	{ "Thunderbird",  	NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "Firefox",      	NULL,       NULL,       1 << 3,       0,           -1 },
 	{ "Sublime_text", 	NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "jetbrains-idea", 	NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "jetbrains-idea-ce", 	NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "SDL_App", 		NULL,       NULL,       1 << 4,       1,           -1 },
 	{ "Snes9x-gtk", 	NULL,       NULL,       1 << 4,       1,           -1 },
