@@ -43,6 +43,7 @@ static const Rule rules[] = {
 	{ "Sylpheed",  		NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "Thunderbird",  	NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "Firefox",      	NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "Geany", 		NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "Sublime_text", 	NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "jetbrains-idea", 	NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "jetbrains-idea-ce", 	NULL,       NULL,       1 << 1,       0,           -1 },
