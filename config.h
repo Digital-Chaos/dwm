@@ -49,6 +49,7 @@ static const Rule rules[] = {
 	{ "jetbrains-idea-ce", 	NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "SDL_App", 		NULL,       NULL,       1 << 4,       1,           -1 },
 	{ "Snes9x-gtk", 	NULL,       NULL,       1 << 4,       1,           -1 },
+	{ "mGBA", 		NULL,       NULL,       1 << 4,       1,           -1 },
 	{ "DarkPlaces", 	NULL,       NULL,       1 << 4,       1,           -1 },
 };
 
