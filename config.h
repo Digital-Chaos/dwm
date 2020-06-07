@@ -18,10 +18,10 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "mono-7:bold", "Font Awesome 5 Brands-7", "Font Awesome 5 Free Solid-7" };
 static const char dmenufont[]       = "mono-7:bold";
-static const char col_gray1[]       = "#222222";
+static const char col_gray1[]       = "#111111";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
+static const char col_gray3[]       = "#aaaaaa";
+static const char col_gray4[]       = "#ffffff";
 static const char col_cyan[]        = "#006688";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
