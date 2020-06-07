@@ -137,8 +137,8 @@ static Button buttons[] = {
 	/* click                event mask        button          function        argument */
 	{ ClkLtSymbol,          0,                Button1,        setlayout,      {0} },
 	{ ClkLtSymbol,          0,                Button3,        setlayout,      {.v = &layouts[2]} },
-	{ ClkWinTitle,          0,                Button1,        zoom,           {0} },
-	{ ClkWinTitle,          MODKEY,           Button1,        zoom,           {0} },
+//	{ ClkWinTitle,          0,                Button1,        zoom,           {0} },
+//	{ ClkWinTitle,          MODKEY,           Button1,        zoom,           {0} },
 //	{ ClkStatusText,        0,                Button1,        spawn,          {.v = dmenucmd } },
 	{ ClkClientWin,         MODKEY,           Button1,        movemouse,      {0} },
 	{ ClkClientWin,         MODKEY|ShiftMask, Button1,        resizemouse,    {0} },
