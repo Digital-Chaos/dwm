@@ -1,5 +1,11 @@
 /* See LICENSE file for copyright and license details. */
 
+/* font defintions */
+#define FONT_SIZE               10
+#define FONT_MONO               "mono-FONT_SIZE:bold"
+#define FONT_AWESOME_BRANDS     "Font Awesome 5 Brands-FONT_SIZE"
+#define FONT_AWESOME_FREE       "Font Awesome 5 Free Solid-FONT_SIZE"
+
 /* font awesome icons */
 static const char icon_music[]       = "\uf001";
 static const char icon_headphones[]  = "\uf025";
@@ -16,8 +22,8 @@ static const unsigned int borderpx  = 1;        /* window border (pixels) */
 static const unsigned int snap      = 8;        /* snap distance (pixels) */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "mono-7:bold", "Font Awesome 5 Brands-7", "Font Awesome 5 Free Solid-7" };
-static const char dmenufont[]       = "mono-7:bold";
+static const char *fonts[]          = { FONT_MONO, FONT_AWESOME_BRANDS, FONT_AWESOME_FREE };
+static const char dmenufont[]       = FONT_MONO;
 static const char col_gray1[]       = "#111111";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
