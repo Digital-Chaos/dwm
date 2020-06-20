@@ -1,10 +1,9 @@
 /* See LICENSE file for copyright and license details. */
 
 /* font defintions */
-#define FONT_SIZE               10
-#define FONT_MONO               "mono-FONT_SIZE:bold"
-#define FONT_AWESOME_BRANDS     "Font Awesome 5 Brands-FONT_SIZE"
-#define FONT_AWESOME_FREE       "Font Awesome 5 Free Solid-FONT_SIZE"
+#define FONT_MONO               "mono-10:bold"
+#define FONT_AWESOME_BRANDS     "Font Awesome 5 Brands-10"
+#define FONT_AWESOME_FREE       "Font Awesome 5 Free Solid-10"
 
 /* font awesome icons */
 static const char icon_music[]       = "\uf001";
