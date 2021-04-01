@@ -1,9 +1,9 @@
 /* See LICENSE file for copyright and license details. */
 
 /* font defintions */
-#define FONT_MONO               "mono-10:bold"
-#define FONT_AWESOME_BRANDS     "Font Awesome 5 Brands-10"
-#define FONT_AWESOME_FREE       "Font Awesome 5 Free Solid-10"
+#define FONT_MONO               "mono-9:bold"
+#define FONT_AWESOME_BRANDS     "Font Awesome 5 Brands-9"
+#define FONT_AWESOME_FREE       "Font Awesome 5 Free Solid-9"
 
 /* font awesome icons */
 static const char icon_music[]       = "\uf001";
