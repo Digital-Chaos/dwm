@@ -92,9 +92,9 @@ static const char *termcmd[]        = { "xterm", NULL };
 static const char *lockcmd[]        = { "slock", NULL };
 static const char *brightupcmd[]    = { "backlight", "incr", "5", NULL };
 static const char *brightdowncmd[]  = { "backlight", "decr", "5", NULL };
-static const char *volumemutecmd[]  = { "mixer", "vol",   "0", NULL };
-static const char *volumeupcmd[]    = { "mixer", "vol", "+10", NULL };
-static const char *volumedowncmd[]  = { "mixer", "vol", "-10", NULL };
+static const char *volumemutecmd[]  = { "mixer", "vol=0%",   NULL };
+static const char *volumeupcmd[]    = { "mixer", "vol=+10%", NULL };
+static const char *volumedowncmd[]  = { "mixer", "vol=-10%", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
